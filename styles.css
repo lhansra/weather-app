@@ -10,15 +10,27 @@
     font-display: fallback;
   }
 
+  * {
+    font-family: 'Nunito',Georgia, 'Times New Roman', Times, serif;
+}
+
   .daily {
+      width: 50%;
       display: grid;
-      grid-template-columns: 20% 20% 20%;
+      grid-template-columns: 33% 33% 33%;
       grid-template-rows: 30%;
+      background-color: #B6D8E4;
+      border-radius: 1%;
+      padding-bottom: 2%;
+      box-shadow: 10px 5px 5px gray;
+      align-self: center;
   }
 
   .location {
       grid-column-start: 1;
       text-align: center;
+      text-align: center;
+      align-self: center;
   }
 
   .greeting {
@@ -31,9 +43,19 @@
   .weather {
     grid-column-start: 3;
     text-align: center;
+    text-align: center;
+      align-self: center;
   }
 
 #date {
     text-align: center;
     grid-column-start: 2;
+    
+}
+
+h1 {
+    font-family: 'Nunito-Light',Georgia, 'Times New Roman', Times, serif;
+    font-size: 30pt;
+    padding: 0;
+    margin: 0;
 }
