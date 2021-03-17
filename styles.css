@@ -15,7 +15,8 @@
 }
 
   .daily {
-      width: 50%;
+      -width: 100%;
+      margin: 2%;
       display: grid;
       grid-template-columns: 33% 33% 33%;
       grid-template-rows: 30%;
@@ -59,3 +60,11 @@ h1 {
     padding: 0;
     margin: 0;
 }
+
+.table{
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+  }
+  .row2{
+    font-size: 35px;
+  }
