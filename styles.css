@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url("assets/Nunito/Nunito-Light.ttf");
+    font-display: fallback;
+  }
+  
+  @font-face {
+    font-family: 'Nunito-Light';
+    src: url("assets/Nunito/Nunito-ExtraLight.ttf");
+    font-display: fallback;
+  }
+
+  .daily {
+      display: grid;
+      grid-template-columns: 20% 20% 20%;
+      grid-template-rows: 30%;
+  }
+
+  .location {
+      grid-column-start: 1;
+      text-align: center;
+  }
+
+  .greeting {
+      grid-column-start: 2;
+      text-align: center;
+      align-self: center;
+
+  }
+
+  .weather {
+    grid-column-start: 3;
+    text-align: center;
+  }
+
+#date {
+    text-align: center;
+    grid-column-start: 2;
+}
